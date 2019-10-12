@@ -1,6 +1,6 @@
 class Book
   
-  def initialize(title) #corresponds with .new 
+  def initialize(title) #corresponds with .new takes whatever we are using down below
     @title = title
   end
   
@@ -33,13 +33,10 @@ class Book
   end
  
   def turn_page
-  end
-  
-  def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
   
 end
 
-book = Book.new("Some Title")
+book = Book.new("Some Title") #book is a local variable, Book is the class
 book.turn_page
