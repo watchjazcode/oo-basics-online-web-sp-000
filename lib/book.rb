@@ -1,5 +1,6 @@
 class Book
   
+  
   def initialize(title) #corresponds with .new takes whatever we are using down below
     @title = title
   end
