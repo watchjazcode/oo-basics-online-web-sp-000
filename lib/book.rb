@@ -1,5 +1,7 @@
 class Book
-  
+  #using accessor and reader simplifies our code
+  #attr_accessor :author, :page_count, :genre
+  #attr_reader :title
   
   def initialize(title) #corresponds with .new takes whatever we are using down below
     @title = title
